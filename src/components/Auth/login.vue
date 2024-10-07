@@ -3,7 +3,7 @@
     <div class="w-full max-w-sm bg-white rounded-lg shadow-md p-12">
       <div class="mb-8">
         <h2 class="text-3xl font-bold text-center text-gray-700 mb-0">
-          Log in to Your Account
+          Log in to Your Account hehe
         </h2>
       </div>
       <form @submit.prevent="login">
