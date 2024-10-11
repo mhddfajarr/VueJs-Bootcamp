@@ -1,19 +1,16 @@
 <template>
   <div >
-    <!-- <Dashboard :Days="Days">
-      <p>Ini dari App.vue</p>
-    </Dashboard> -->
-    <login/>
+  <RouterView/>
   </div>
 </template>
-
 <script>
-import Dashboard from "./components/Dashboard.vue";
+import Dashboard from "./components/Pages/Dashboard.vue";
 import login from "./components/Auth/login.vue";
+import { RouterView } from "vue-router";
 
 export default {
   components: {
-    Dashboard, login
+    Dashboard, login, RouterView
   },
   setup() {
     const Days = [
