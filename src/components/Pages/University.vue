@@ -73,7 +73,7 @@ export default {
         this.tableData = response.data.data
     //     this.tableData = response.data.data.map(item => {
     //     return {
-    //       universitasId: item.id,
+    //       Id: item.id,
     //       universitasName: item.name, 
 
     //     };

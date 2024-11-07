@@ -12,7 +12,6 @@
         </button>
       </div>
       <hr class="border-gray-300 border-1 mb-8" />
-
       <Table
           :tableData="tableData"
           :columns="['NIK', 'Full Name', 'Phone', 'Email', 'Birth Date', 'University Name', 'Degree', 'GPA']"
