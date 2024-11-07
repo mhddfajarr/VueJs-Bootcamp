@@ -31,7 +31,7 @@ export default {
     return {
       isSidebarVisible: true,
       tableData: [],
-    //   selectedUniversity: null,
+    //   selectedUniversity: null awdawda,
     //   modalTitle: "Add new university",
     };
   },
