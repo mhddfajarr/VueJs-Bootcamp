@@ -12,7 +12,7 @@
           isSidebarVisible ? '' : 'invisible opacity-0 pointer-events-none',
         ]"
       >
-        <h2 class="text-2xl font-bold">Logo</h2>
+        <h2 class="text-2xl font-bold">Manage Jobs</h2>
       </div>
       <hr class="border-gray-500 border-1 mb-4" />
       <div class="flex items-center px-2 ml-1 mb-4">
@@ -123,7 +123,7 @@ export default {
 
 <style scoped>
 .color-primary {
-  background-color: #343a40;
+  background-color: #0a4d80;
 }
 .active {
   @apply bg-white text-black rounded;
